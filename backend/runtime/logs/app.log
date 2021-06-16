@@ -1,0 +1,73 @@
+2021-06-14 12:43:47 [::1][-][oqm2nmmj7ltlc2p6npsdju6qce][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "sgii". in /var/www/html/advanced/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/html/advanced/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/html/advanced/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/html/advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/advanced/vendor/yiisoft/yii2/web/Application.php:116
+Stack trace:
+#0 /var/www/html/advanced/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#1 /var/www/html/advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2021-06-14 12:43:47 [::1][-][oqm2nmmj7ltlc2p6npsdju6qce][info][application] $_GET = [
+    'r' => 'sgii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92pkltjkccmui8v1qa5rovmme4'
+    '_csrf-frontend' => '01ce49b55858146792ca3dd46feff819a5661eb7b1cf83b9ea1be94b1e612ef2a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KIi2FlKmDxofopRwA6WBKAzCdGjkN3H-\";}'
+    'advanced-backend' => 'oqm2nmmj7ltlc2p6npsdju6qce'
+    '_csrf-backend' => '1d24f05d90a2466446180ea1105ac3386cad8657ef4609cb9118fef570f6c02da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Sw-hQX92AYfMzsdDZlqkXFQGM1Jq6L75\";}'
+    'XSRF-TOKEN' => 'eyJpdiI6ImxmRFlXYmt3SnM3WHpNT1hrZVlZb1E9PSIsInZhbHVlIjoiaVVlWEdGRDFnVUJFYjJlY1RLQkNGSjBEZmVTMGJ4QTBRXC9TRmtcL0FQRitKY0RiNTZYMzhLYUJKcVk5WkhyR1VKIiwibWFjIjoiMGEwYjVhOWQ2MGVkYjJhZmUzMjA0MjZmZWVmMDYyMGRhZmZlOWRhYmNiZmNkMDNhZDQyNWQ4YTUyZjMxYjFhOSJ9'
+    'laravel_session' => 'eyJpdiI6IktnbkhiVnhTT2tTQ2RaN1JkSWFcLzdnPT0iLCJ2YWx1ZSI6IlBWR3R5XC9wVmEyTEpzSnZJczR6bjJGSkk0OTNnVkw0UTkxdWM0RkZyNDBvNnA3Q3VBbVdxckh0Mk5HenlBUGQzIiwibWFjIjoiZTJlZDNhZGUzMDEzYTU5MmVlZmEwZWNiY2E0NzhkZGM4YzgwYzEyOGRmMjA0Y2QxYjI3MzI1NzkzY2ZlNjExOSJ9'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=92pkltjkccmui8v1qa5rovmme4; _csrf-frontend=01ce49b55858146792ca3dd46feff819a5661eb7b1cf83b9ea1be94b1e612ef2a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KIi2FlKmDxofopRwA6WBKAzCdGjkN3H-%22%3B%7D; advanced-backend=oqm2nmmj7ltlc2p6npsdju6qce; _csrf-backend=1d24f05d90a2466446180ea1105ac3386cad8657ef4609cb9118fef570f6c02da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Sw-hQX92AYfMzsdDZlqkXFQGM1Jq6L75%22%3B%7D; XSRF-TOKEN=eyJpdiI6ImxmRFlXYmt3SnM3WHpNT1hrZVlZb1E9PSIsInZhbHVlIjoiaVVlWEdGRDFnVUJFYjJlY1RLQkNGSjBEZmVTMGJ4QTBRXC9TRmtcL0FQRitKY0RiNTZYMzhLYUJKcVk5WkhyR1VKIiwibWFjIjoiMGEwYjVhOWQ2MGVkYjJhZmUzMjA0MjZmZWVmMDYyMGRhZmZlOWRhYmNiZmNkMDNhZDQyNWQ4YTUyZjMxYjFhOSJ9; laravel_session=eyJpdiI6IktnbkhiVnhTT2tTQ2RaN1JkSWFcLzdnPT0iLCJ2YWx1ZSI6IlBWR3R5XC9wVmEyTEpzSnZJczR6bjJGSkk0OTNnVkw0UTkxdWM0RkZyNDBvNnA3Q3VBbVdxckh0Mk5HenlBUGQzIiwibWFjIjoiZTJlZDNhZGUzMDEzYTU5MmVlZmEwZWNiY2E0NzhkZGM4YzgwYzEyOGRmMjA0Y2QxYjI3MzI1NzkzY2ZlNjExOSJ9'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '60018'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sgii'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=sgii'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1623674627.827
+    'REQUEST_TIME' => 1623674627
+]
